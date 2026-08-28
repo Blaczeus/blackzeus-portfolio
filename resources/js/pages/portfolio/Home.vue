@@ -152,5 +152,74 @@ useScrollReveal();
                 </li>
             </ol>
         </section>
+
+        <section
+            id="experience"
+            class="about-section home-experience reveal-item"
+            aria-labelledby="experience-title"
+        >
+            <p class="section-kicker">EXPERIENCE</p>
+            <div class="experience-heading">
+                <h2 id="experience-title">Where I've been building.</h2>
+            </div>
+
+            <article class="experience-card">
+                <div class="experience-card-header">
+                    <div>
+                        <h3>Software Developer / Operations Lead</h3>
+                        <p class="experience-company">Nervego</p>
+                    </div>
+                    <div class="experience-meta" aria-label="Role details">
+                        <span>Oct 2025 – Present</span>
+                        <span>Lagos, Nigeria</span>
+                    </div>
+                </div>
+
+                <p class="experience-summary">
+                    At Nervego, I work across the full stack on web products and
+                    internal systems, from backend logic and databases to
+                    frontend implementation. My work often involves taking a
+                    product requirement or an existing design and turning it
+                    into something maintainable and usable in a real
+                    application.
+                </p>
+
+                <ul class="experience-list">
+                    <li>
+                        Build and maintain full-stack web applications and
+                        internal systems using Laravel, PHP, Vue, Inertia,
+                        MySQL, and related web technologies.
+                    </li>
+                    <li>
+                        Work across backend logic, APIs,
+                        authentication/authorization, databases, dashboards,
+                        frontend interfaces, and application workflows rather
+                        than being limited to one layer of the stack.
+                    </li>
+                    <li>
+                        Translate product requirements, existing designs, and
+                        purchased/static templates into working Laravel/Vue
+                        applications.
+                    </li>
+                    <li>
+                        Modernize or replace legacy frontend behavior where
+                        necessary, including reducing dependence on heavily
+                        jQuery-based or difficult-to-maintain JavaScript
+                        implementations.
+                    </li>
+                    <li>
+                        Work on products including voting/election systems,
+                        institutional/CMS platforms, dashboards, and Nervego's
+                        own web systems.
+                    </li>
+                </ul>
+
+                <p class="experience-note">
+                    The role also includes operational coordination and internal
+                    responsibilities, but the core of my work is still building
+                    and improving software.
+                </p>
+            </article>
+        </section>
     </main>
 </template>
